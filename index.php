@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-Cell | UVCE</title>
+    <title>E-Cell | UCE</title>
     <link rel="shortcut icon" class="til" href="images/oie_oie_trim_image.png"/>
     <link
       rel="stylesheet"
