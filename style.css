@@ -1,0 +1,688 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+.til{
+  height: 120%;
+}
+body {
+ background: radial-gradient(blue,#3d4660);;
+}
+h1 {
+  /* font-family: "Bebas Neue", cursive;*/
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  color: #86c232;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 10px 0;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+h4 {
+  font-family: sans-serif;
+  margin: 5px 3px;
+  font-size: 0.8rem;
+}
+p {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+/*----------------------------desktop view--------------------------*/
+/* landing page styling*/
+.landing {
+  background: radial-gradient(blue,#3d4660);
+  height: 100vh;
+  position: relative;
+}
+#particles-js{
+  height: 80vh;
+  width: 98vw;
+  position: absolute;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav a img {
+  height: 7rem;
+  margin: 1rem;
+}
+.fa-bars {
+  position: fixed;
+  color: #ffffff;
+  font-size: 2rem;
+  top: 2.7rem;
+  right: 2rem;
+  display: block;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.main {
+  height: 80vh;
+}
+.intro {
+  margin-top: 3rem;
+  align-items: center;
+}
+.nav-menu {
+  position: fixed;
+  display: none;
+  background: black;
+  height: 100vh;
+  width: 20vw;
+  right: 0rem;
+  z-index: 1;
+}
+.fa-times {
+  position: relative;
+  z-index: 2;
+  top: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 0rem;
+  left: 15rem;
+  display: flex;
+  padding: 0.5rem;
+  background: black;
+  transition: 0.5s;
+}
+nav .nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  /*margin-top: 3rem;*/
+}
+
+nav .nav-menu ul li {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+#menuelements {
+  margin-top: 2rem;
+}
+#menuelements li:hover {
+  background-color: #222629;
+}
+
+#socialicons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 28%;
+}
+.socialmenu ul li a .fa {
+  font-size: 2rem;
+  color: #86c232;
+  
+}
+
+
+.account-dropdown__footer a {
+  display: block;
+  color: #333;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.account-dropdown__footer a:hover {
+  background: #222629;
+  color: #fff;
+}
+
+.account-dropdown__footer a i {
+  line-height: 1;
+  margin-right: 20px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+
+
+.socialmenu ul li a .fa:hover {
+  color: white;
+}/*
+.social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15rem;
+  background-color: #474B4f;
+}*/
+.social ul {  
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  bottom: 0rem;
+  justify-content: center;
+  background-color: #474B4f;
+  
+}
+
+.social ul li a .fa {
+  margin: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #86c232;
+  
+}
+
+
+.social ul li a .fa:hover {
+  color: white;
+}
+
+
+
+/*about us*/
+.about-us {
+  text-align: justify;
+  padding: 1rem;
+  line-height: 30px;
+}
+.about-desc {
+  padding: 0.5rem;
+  margin: 0 15px;
+  margin-bottom: 2rem;
+}
+
+.events {
+  display: flex;
+  margin-top: 1.8rem;
+  flex-flow: row;
+  margin: 0 3rem;
+  align-items: center;
+  text-align: justify;
+}
+.events2 {
+  display:flex;
+  margin-top: 0.5rem;
+  flex-flow: row;
+  margin: 0 3rem;
+  align-items: center;
+  text-align: justify;
+}
+.bull-market,
+.eureka {
+  margin: 2rem 1rem;
+}
+.talks,
+.workshops,
+.innovation {
+  margin: 1rem 1rem;
+  float: left;
+  width: 33.33%;
+  padding: 10px
+}
+.events2 ul li {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
+
+.column {
+  float: center;
+  width: 32%;
+  margin-bottom: 0px;
+  padding: 0 0px;
+  height: 24%;
+}
+.container{
+  max-width: 1300px;
+  margin-bottom: 10%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgb(38, 39, 41);
+  margin: 0px;
+}
+.about-section {
+  padding: 60px 0px  ;
+  text-align: center;
+  background-color: #474e5d;
+  color: lightgoldenrodyellow;
+  font-style: oblique;
+  font-weight: bold;
+
+}
+  
+.title {
+  color: coral;
+  font-weight: bolder;
+}
+.card img{
+  width: 400px;
+}
+h2{
+  text-align:center;
+font-size: 50px;
+font-weight: 40px;
+}  
+
+/*gallery*/
+
+.gallery {
+  background: #222629;
+}
+.Gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.gallery img {
+  width: 100%;
+}
+
+/*team*/
+#myImg {
+  max-width:200px;
+  position: relative;
+  left: 350px;
+  top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  cursor: zoom-in;
+  transition: 0.3s;
+}
+#myImg1 {
+  max-width:200px;
+  position: relative;
+  left: 500px;
+  top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  cursor:zoom-in;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg1:hover {opacity: 0.7;}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container-team,
+.pres {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.pres .team-member {
+  margin: 2rem;
+}
+.container-team .team-member,
+.pres .team-memeber {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.pres .team-member img {
+  height: 200px;
+}
+.container-team .team-member img {
+  height: 170px;
+}
+
+.member-desc {
+  text-align: center;
+  background-color: #6b6e70;
+  color: whitesmoke;
+  border-radius: 15px 3px;
+}
+.name {
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.post {
+  color: black;
+  font-size: 1.2rem;
+}
+
+/*footer*/
+footer {
+  background-color: #222629;
+  /*display: flex;*/
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.fa-arrow-up{
+  position: relative;
+  left: 74rem;
+  bottom: 1rem;
+
+  
+}
+
+
+/*------------------------------------Tab view----------------------------------*/
+@media screen and (max-width: 768px) {
+  nav a img {
+    height: 7rem;
+    margin: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-left: 0.75rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-left: 0.75rem;
+  }
+  .social ul li a .fa {
+    margin: 2rem;
+    margin-top: 3rem;
+    font-size: 3rem;
+    color: #86c232;
+  }
+}
+/*------------------------------------mobile view----------------------------------*/
+
+@media screen and (max-width: 480px) {
+  nav a img {
+    height: 5rem;
+    margin: 1rem;
+  }
+  #particles-js{
+    height: 90vh;
+    position: absolute;
+  }
+  .fa-bars {
+    margin-top: 0rem;
+    padding: 0rem;
+    top: 1.5rem;
+    right: 1rem;
+  }
+  nav .nav-menu {
+    z-index: 1;
+    position: fixed;
+    background: black;
+    height: 100vh;
+    width: 50vw;
+    right: 0rem;
+  }
+  nav .nav-menu ul {
+    margin-top: 3rem;
+  }
+  .fa-times {
+    position: fixed;
+    z-index: 1;
+    top: 0.3rem;
+    font-size: 2rem;
+    left: 19.5rem;
+    
+  }
+  .socialmenu ul li a .fa {
+    font-size: 1.5rem;
+    color: #86c232;
+    padding: 0;
+    margin: 0;
+  }
+  #socialicons li{
+    padding: 0.7rem;
+  }
+  .main {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .intro {
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+    letter-spacing: 2px;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
+  }
+  p {
+    font-size: 1rem;
+    padding: 0.3rem;
+  }
+  /*.social {
+    margin-top: 70px;
+  }*/
+  .social ul {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    bottom: 0rem;
+    justify-content: center;
+    background-color: #474B4f;
+    
+  }
+  
+  .social ul li a .fa {
+    margin: 1rem;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  /*--------------------about us---------------------*/
+
+  .events {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .events2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .bull-market,
+  .eureka {
+    padding: 0.5rem;
+  }
+  .talks,
+  .workshops, 
+  .innovation {
+    width: 100%;
+  }
+
+  /*--------------------gallery------------*/
+
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+  }
+  .picture {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .picture .img-desc {
+    background: black;
+    padding: 0.2rem;
+  }
+
+  /*----------------------team------------------------*/
+  
+  @media only screen and (max-width: 700px){
+    #myImg {
+      max-width:100px;
+      position: relative;
+      left: 50px;
+      top: 30px;
+      padding-bottom: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    #myImg1 {
+      max-width:100px;
+      position: relative;
+      left: 100px;
+      top: 30px;
+      padding-bottom: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .modal-content {
+    width: 100%;
+  }
+  .team-member {
+    margin: -20px;
+  }
+  .pres {
+    justify-content: space-evenly;
+    flex-flow: row;
+  }
+  .container-team .team-member img,
+  .pres .team-member img {
+    height: 130px;
+    width: 130px;
+  }
+  .member-desc .name,
+  .post {
+    font-size: 0.7rem;
+  }
+
+  /*------------------footer---------------------*/
+
+  footer {
+    background-color: #222629;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: space-between;
+
+  }
+
+  .fa-arrow-up{
+    position: relative;
+    bottom: 2rem;
+    left: 9rem;
+    right: 1rem;
+
+  }
+  footer h4 {
+    font-size: 0.7rem;
+  }
+
+}
+  
+}
